@@ -1,0 +1,25 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.calculator {
+	text-align: center;
+}
+
+.container {
+	margin: 50px 40%;
+	display: grid;
+	grid-template-rows: 50px repeat(5, 50px);
+	grid-template-columns: repeat(4, 60px);
+}
+
+#display {
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+
+#zero {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
